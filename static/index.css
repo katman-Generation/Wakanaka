@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 100vw;
+    height: 99vh;
+    background-image: url(../images/photo1.jpg);
+    background-color: rgb(194, 212, 28);
+    margin: 0;
+}
+.navi{
+    border: 2px solid black;
+    width: 95vw;
+    text-align: center;
+}
+.navi a{
+    margin-right: 20px;
+    color: blue;
+    font-size: larger;
+    font-style: italic;
+}
