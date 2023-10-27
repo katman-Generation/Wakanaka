@@ -1,13 +1,23 @@
 body{
+    order: 2px solid black;
     margin: 0;
     padding: 0;
 }
+html {
+    order: 2px solid black;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
 
-.header{
+.nme{
+    order: 2px solid black;
+    background-image: linear-gradient(45deg, rgb(80, 20, 192, 0.95), rgb(243, 235, 235, 0.75)), url('../images/developer.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100vw;
     height: 99vh;
-    background-image: url(../images/photo1.jpg);
-    background-color: rgb(194, 212, 28);
     margin: 0;
 }
 .navi{
@@ -16,8 +26,27 @@ body{
     text-align: center;
 }
 .navi a{
+    border: 2px solid black;
     margin-right: 20px;
     color: blue;
     font-size: larger;
     font-style: italic;
+}
+.header h1 {
+    border: 2px solid black;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: goldenrod;
+    margin-top: 100px;
+    padding-top: 100px;
+}
+.header h2 {
+    border: 2px solid black;
+    text-align: center;
+    font-size: 150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: goldenrod;
+    margin-top: 50px;
+    padding-top: 50px;
 }
