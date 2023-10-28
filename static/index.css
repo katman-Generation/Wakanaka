@@ -1,48 +1,80 @@
 body{
-    border: 2px solid black;
     margin: 0;
     padding: 0;
     border: 2px solid black;
-    background-image: linear-gradient(45deg, rgb(80, 20, 192, 0.95), rgb(243, 235, 235, 0.75)), url('images/developer.jpg');
+    animation: animate 30s ease-in-out infinite;
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     width: 100vw;
     height: 99vh;
 }
 html {
-    border: 2px solid black;
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
 }
+@keyframes animate{
+    0%, 100%{
+        background-image: url('images/photo1.jpg');
+    }
+    20%{
+        background-image: url('images/photo2.jpg');
+    }
+    40%{
+        background-image: url('images/photo3.jpg');
+    }
+    60%{
+        background-image: url('images/photo4.jpg');
+    }
+    80%{
+        background-image: url('images/photo5.jpg');
+    }
+}
 .navi{
-    border: 2px solid black;
     width: 95vw;
     text-align: center;
+    margin-top: 10px;
 }
-.navi a{
-    border: 2px solid black;
+.logo{
+    width:100px;
+    height: 100px;
+}
+
+.navi button{
     margin-right: 20px;
-    color: blue;
-    font-size: larger;
-    font-style: italic;
+    font-size: 19px;
+    margin: 50px 20px;
+    border-radius: 12px;
+    border: 2px dotted purple;
+    background-color: black;
+    color: white;
+}
+.navi span a{
+    text-decoration: none;
+    color: red;
+    font-size: 50px;
+
 }
 .home h1 {
-    border: 2px solid black;
     text-align: center;
     font-size: 100px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: goldenrod;
-    margin-top: 100px;
-    padding-top: 100px;
-}
-.home h2 {
-    border: 2px solid black;
-    text-align: center;
-    font-size: 150px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: goldenrod;
     margin-top: 50px;
     padding-top: 50px;
+}
+.home h2 {
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: goldenrod;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.home h3 {
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: goldenrod;
+    margin-top: 10px;
+    padding-top: 10px;
 }
