@@ -1,17 +1,15 @@
 body{
-    margin: 0;
-    padding: 0;
-    border: 2px solid black;
-    animation: animate 30s ease-in-out infinite;
-    background-position: center;
-    width: 100vw;
-    height: 99vh;
+    background-color: black;
 }
-html {
+.header{
+    margin: 0px;
+    padding: 0px;
     width: 100vw;
     height: 100vh;
-    overflow-x: hidden;
+    animation: animate 20s ease-in-out infinite;
+    background-position: center;
 }
+
 @keyframes animate{
     0%, 100%{
         background-image: url('images/photo1.jpg');
@@ -48,11 +46,20 @@ html {
     background-color: black;
     color: white;
 }
+
+.navi button:hover {
+    background-color: blue;
+    color:rgb(226, 171, 19);
+    cursor: grab/pointer;
+}
 .navi span a{
     text-decoration: none;
     color: red;
     font-size: 50px;
 
+}
+.navi span a:hover{
+    color:goldenrod;
 }
 .home h1 {
     text-align: center;
@@ -61,6 +68,7 @@ html {
     color: goldenrod;
     margin-top: 50px;
     padding-top: 50px;
+    font-stretch: expanded;
 }
 .home h2 {
     text-align: center;
@@ -77,4 +85,11 @@ html {
     color: goldenrod;
     margin-top: 10px;
     padding-top: 10px;
+}
+
+footer{
+    text-align: center;
+    color: green;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
 }

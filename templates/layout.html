@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../static/about.css" />
 </head>
 <body>
-    <header class="header" id="header">
+    <div class="header" id="header">
         <nav class="navi" id="navi">
             <a> 
                 <img src="../static/images/developer.jpg" alt="our logo" class="logo">
@@ -26,8 +26,14 @@
             <a href="{{'contacts'}}"><button>Contact Us</button></a>
             <span><a href="{{'Donations'}}">Donations</a></span>
         </nav>
-    </header>
+        <div class="home" id="home">
+            <h1>WELCOME TO</h1>
+            <h2>Wakanaka</h2>
+            <h3>The hub  of Excellence</h3>
+        </div>
+    </div>
     {% block body %}
     {% endblock %}
+    <footer>Copyright © 2023 Wakanakahub : Developed & Designed By <a href="https://katman-generation.github.io/my-portfolia/">Tatenda Katema</a></footer>
 </body>
 </html>
