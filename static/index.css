@@ -131,4 +131,121 @@
     .navi img{
         display: none;
     }
+    body{
+        background-color: goldenrod;
+    }
+    .header{
+        margin-bottom: 0;
+        padding-bottom: 0;
+        animation: head 20s ease-in-out infinite;
+    }
+    .home{
+        margin: 0px;
+        padding: 50px 20px;
+        animation: animate 20s ease-in-out infinite;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 70vh;
+    }
+
+
+    .navi{
+        width: 95vw;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .navi a{
+        margin: 0;
+        border: 2px red solid;
+        padding: 0;
+    }
+
+    .navi button{
+        margin-right: 20px;
+        font-size: 19px;
+        border-radius: 12px;
+        border: 2px dotted purple;
+        background-color: black;
+        color: white;
+    }
+
+    .navi span a{
+        text-decoration: none;
+        color: white;
+        font-size: 50px;
+
+    }
+    .home h1 {
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: white;
+        margin-top: 30px;
+        padding-top: 30px;
+        font-size: 50px;
+    }
+    .home h2 {
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: white;
+        margin-top: 10px;
+        padding-top: 10px;
+        font-size: 50px;
+    }
+    .home h3 {
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: white;
+        margin-top: 10px;
+        padding-top: 10px;
+        font-size: 50px;
+    }
+
+    footer{
+        text-align: center;
+        color: green;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+    }
+
+    footer a{
+        color: white;
+    }
+
+    @keyframes animate{
+        0%, 100%{
+            background-image: url('images/photo1.jpg');
+        }
+        20%{
+            background-image: url('images/photo2.jpg');
+        }
+        40%{
+            background-image: url('images/photo3.jpg');
+        }
+        60%{
+            background-image: url('images/photo4.jpg');
+        }
+        80%{
+            background-image: url('images/photo5.jpg');
+        }
+    }
+
+    @keyframes head{
+        0%, 100%{
+            background-color: aliceblue;
+        }
+        20%{
+            background-color: blue;
+        }
+        40%{
+            background-color: red;
+        }
+        60%{
+            background-color: purple;
+        }
+        80%{
+            background-color: blueviolet;
+        }
+    }
 }
