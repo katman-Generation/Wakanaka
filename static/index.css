@@ -4,8 +4,11 @@
     }
     .header{
         margin-bottom: 0;
-        padding-bottom: 0;
-        animation: head 20s ease-in-out infinite;
+        padding-top: 60px;
+        background-image: url('images/file.enc');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
         
     }
     .home{
@@ -137,7 +140,10 @@
     .header{
         margin-bottom: 0;
         padding-bottom: 0;
-        animation: head 20s ease-in-out infinite;
+        background-image: url('images/file.enc');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .home{
         margin: 0px;
@@ -158,7 +164,6 @@
     }
     .navi a{
         margin: 0;
-        border: 2px red solid;
         padding: 0;
     }
 
@@ -176,6 +181,11 @@
         color: white;
         font-size: 50px;
 
+    }
+    .navi button:hover {
+        background-color: blue;
+        color:rgb(226, 171, 19);
+        cursor: grab/pointer;
     }
     .home h1 {
         text-align: center;

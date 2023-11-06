@@ -47,5 +47,50 @@
     }
 }
 @media only screen and (max-width: 600px) {
-    
+    .about h1{
+        text-align: center;
+        font-size: 30px;  
+    }
+
+    .about-first{
+        display: block;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .what{
+        display: block;
+        justify-content: space-between;
+        padding: 0 1%;
+    }
+
+    .how{
+        display: block;
+        justify-content: space-between;
+        padding: 0 1%;
+    }
+
+    .identity{
+        display: block;
+        justify-content: space-between;
+        padding: 0 1%;
+    }
+
+    .text{
+        margin: 10px 2px;
+        padding: 10px 2px;
+    }
+
+    .text h2{
+        font-size: 200%;
+    }
+
+    .text p{
+        font-size: 15px;
+    }
+
+    .a-image{
+        width: 98%;
+        height: 100%;
+    }
 }

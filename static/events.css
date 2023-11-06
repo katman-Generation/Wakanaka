@@ -1,2 +1,54 @@
-@media screen and (min-width: 601px) {}
-@media only screen and (max-width: 600px) {}
+@media screen and (min-width: 601px) {
+    .allevents{
+        width: 50vw;
+        margin: 5% 25%;
+    }
+    .buttons{
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .buttons button{
+       text-align: center;
+       height: 450px;
+       width: 450px;
+       background-color: grey;
+       border-radius: 20%;
+       border: 4px dotted greenyellow;
+       font-size: 50px;
+       color: rgb(109, 85, 7);
+       
+    }
+
+    .buttons button:hover{
+        background-color: turquoise;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .allevents{
+        width: 50vw;
+        margin: 0;
+    }
+    .buttons{
+        align-items: center;
+        display: block;
+        margin: 10px;
+    }
+    .buttons button{
+       text-align: center;
+       height: 70vw;
+       width: 40vh;
+       background-color: grey;
+       border-radius: 20%;
+       border: 4px dotted greenyellow;
+       font-size: 50px;
+       color: rgb(109, 85, 7);
+       padding: 1%;
+       margin: 3%;
+    }
+    .buttons button:hover{
+        background-color: turquoise;
+        color: aliceblue;
+    }
+}

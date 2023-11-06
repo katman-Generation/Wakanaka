@@ -1,6 +1,6 @@
 from flask import Flask, render_template
 
-app = Flask(__name__, static_url_path='/static') 
+app = Flask(__name__, static_url_path='/static')
 
 
 @app.route("/")
@@ -39,7 +39,7 @@ def board():
     return(render_template('board.html'))
 
 @app.route("/Donations")
-def Donations():
+def donations():
     """the url for the Donation function"""
     return(render_template('Donations.html'))
 
