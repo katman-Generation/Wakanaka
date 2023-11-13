@@ -13,11 +13,6 @@ def about():
     """the url for about page"""
     return(render_template('about.html'))
 
-@app.route("/mission")
-def mission():
-    """the url for the mission page"""
-    return(render_template('mission.html'))
-
 @app.route("/events")
 def events():
     """the url for the events page"""
