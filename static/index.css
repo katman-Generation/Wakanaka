@@ -14,6 +14,12 @@
         border-radius: 5%;
         
     }
+    .header .pnavigation{
+        display: none;
+    }
+    .header button{
+        display: none;
+    }
     .home{
         margin: 0px;
         padding: 0px;
