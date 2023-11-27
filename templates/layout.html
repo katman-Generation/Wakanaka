@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="../static/inspiration.css" />
     <link rel="stylesheet" href="../static/about.css" />
     <link rel="stylesheet" href="../static/board.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
 </head>
 <body>
     <div class="header" id="header">
@@ -26,9 +29,21 @@
             <a href="{{'contacts'}}"><button>Contact Us</button></a>
             <span><a href="{{'donations'}}">Donations</a></span>
         </nav>
+        <nav id="pmySidenav" class="pnavigation">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNavigation()">&times;</a> 
+            <a href="{{'/'}}" onclick="closeNavigation()">Home</a>
+            <a href="{{'about'}}" onclick="closeNavigation()">About Us</a>
+            <a href="{{'events'}}" onclick="closeNavigation()">Events</a>
+            <a href="{{'inspiration'}}" onclick="closeNavigation()">Our Inspiration</a>
+            <a href="{{'board'}}" onclick="closeNavigation()">Board/Partnership</a>
+            <a href="{{'contacts'}}" onclick="closeNavigation()">Contact Us</a>
+            <span><a href="{{'donations'}}" onclick="closeNavigation()">Donations</a></span>
+        </nav>
+        <button onclick="openNavigation()">nav</button>
     </div>
     {% block body %}
     {% endblock %}
+    <script src="../static/index.js" ></script>
     <footer>Copyright © 2023 Wakanakahub : Developed & Designed By <a href="https://katman-generation.github.io/my-portfolia/">Tatenda Katema</a></footer>
 </body>
 </html>
