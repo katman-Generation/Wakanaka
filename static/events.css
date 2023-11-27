@@ -1,7 +1,8 @@
 @media screen and (min-width: 601px) {
     .allevents{
         width: 50vw;
-        margin: 5% 25%;
+        margin: 2% 25%;
+        padding-top: 10%;
     }
     .buttons{
         align-items: center;
@@ -24,6 +25,31 @@
     .buttons button:hover{
         background-color: turquoise;
     }
+    .upevents{
+        display: none;
+        padding: 3%;
+        width: 50%;
+        position: relative;
+        left: 25%;
+        height: 50%;
+    }
+    .udevent{
+        text-align: center;
+        padding: 3%;
+        align-items: center;
+        border: 10px green dotted;
+        margin: 3%;
+        border-radius: 10%;
+    }
+    .udevent img{
+        border-radius: 30%;
+        height: 200px;
+    }
+    .uevent-details{
+        font-size: 150%;
+    }
+    
+
 }
 @media only screen and (max-width: 600px) {
     .allevents{
